@@ -1,0 +1,20 @@
+pid,category,type,size,stock,sp,Gender
+101,Sandals,Leather,"8,9,10,11",15,800,M
+102,Slippers,General,"7,8,9",17,700,M
+103,Floaters,Soft Leather,9,10,1500,M
+104,Shoes,Leather,"8,9,10",3,3000,F
+105,Shoes,Leather,"7,9",25,2500,M
+106,Formal Shoes,Soft Leather,"10,11",30,3000,M
+107,Sneakers,Soft Plastic,,48,2500,M
+108,Party Wear,Leather,"8,9,10,11",98,1500,F
+109,Sliders,Soft Plastic,"8,9,10",12,700,M
+110,Sandals,Leather,"10,11",25,500,M
+111,Party Wear,Leather,"10,11",10,3500,M
+112,Casual Wear,Soft Plastic,"8,9,10",1,1000,F
+113,Crocs,Soft Plastic,"8,9,10,11",36,3500,M
+114,Slippers,Leather,"10,11",54,1200,M
+115,Ankle Boots,Soft Leather,"8,9,10",5,2500,F
+116,High Heels,Soft Plastic,"8,9",47,2000,F
+117,Loafers,Leather,"8,9,10,11",25,500,M
+118,Boat Shoes,Soft Leather,"10,11",26,1300,M
+119,Formal Shoes,Leather,"8,9,10,11",21,2500,F

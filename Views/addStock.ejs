@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <title>Add New Items</title>
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <style>
+            form
+            {
+                margin-left:500;
+                border-style: solid;
+                margin-top: 10px;
+                padding:50 50 50 50;
+                height: px;
+                width: 600px;
+                font-weight: bold;
+                color:rgb(2, 0, 14)
+                
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="/">
+             Fashion Feet
+           </a>
+           <ul class="nav navbar-nav">
+            <li class="active nav-item"><a href="/"class = "nav-link">Home</a></li>
+            <li class = "nav-item"><a href="/addItem" class = "nav-link">Add a New Item</a></li>
+            <li class = "nav-item"><a href="/updateStock" class = "nav-link">Update Stock</a></li>
+            <li class = "nav-item"><a href="/deleteStock" class = "nav-link">Delete Item</a></li>
+          </ul>
+         </nav>
+          <center style = "margin-top: 50px; margin-bottom: 50px;"><h1>Add new Items Here!!!</h1></center>
+          <div class="wrapper">
+            <form method="POST" action="/addItemDB">
+                <div class="form-group">
+                    <label for="pid">Enter Product ID</label>
+                    <input type="text" class="form-control" name = "pid">
+                </div>
+                <div class="form-group">
+                    <label for="category">Enter Category</label>
+                    <input type="text" class="form-control" name = "category">
+                </div>
+                <div class="form-group">
+                    <label for="type">Enter Product Type</label>
+                    <input type="text" class="form-control" name = "type">
+                </div>
+                <div class="form-group">
+                    <label for="size">Enter Product Size</label>
+                    <input type="text" class="form-control" name = "size">
+                </div>
+                <div class="form-group">
+                    <label for="stock">Enter Stock</label>
+                    <input type="text" class="form-control" name = "stock">
+                </div>
+                <div class="form-group">
+                    <label for="sp">Enter Selling Price</label>
+                    <input type="text" class="form-control" name = "sp">
+                </div>
+                <div class="form-group">
+                    <label for="Gender">Select Gender</label>
+                    <select class="form-control" name = "Gender">
+                        <option value = "M">Male</option>
+                        <option value = "F">Female</option>
+                      </select>
+                </div>
+                <button type="submit" class="btn btn-primary" style = "margin-left: 200;">Submit</button>
+            </form>
+          </div>
+    </body>
+</html>
